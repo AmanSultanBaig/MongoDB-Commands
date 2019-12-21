@@ -6,7 +6,7 @@ If you want to get search something in your collection/Table so write `db.mycoll
 ```ruby 
 select * from Table
 ``` 
-in Sql Server / MySQL [RDMS]
+in Sql Server / MySQL [RDMS] and if you want to find specific column in collection so following syntax for that, `db.collectionName.find({},{fieldName:1}) // 1 is for display field & 0 is for Not display` 
 
 ### 1. Create Database
 
@@ -47,4 +47,3 @@ db.collectionName.insert([
          ])
      // we can send multiple objects in an array objects
 ```
-
