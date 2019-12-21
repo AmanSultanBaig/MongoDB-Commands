@@ -31,3 +31,13 @@ Here, the name is the name of the collection & options is a document which is us
 
 ### 4. Drop Collection
 `db.mycollection.drop()`
+
+### Insert Document
+Inserts a document or documents into a collection.
+The **insert()** method has the following syntax:
+```ruby
+// with json objects
+db.collectionName.insert({name:"Aman Sultan",postion:"JS Developer"})
+```
+
+
