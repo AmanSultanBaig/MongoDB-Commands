@@ -39,5 +39,12 @@ The **insert()** method has the following syntax:
 // with json objects
 db.collectionName.insert({name:"Aman Sultan",postion:"JS Developer"})
 ```
-
+to insert multiple objects at once so we need to send objects as bulk, for Example:
+```ruby
+db.collectionName.insert([
+             {name:"Aman Sultan",postion:"JS Developer"},
+             {name:"Nabeel Jameel",postion:"PHP Developer"},
+         ])
+     // we can send multiple objects in an array objects
+```
 
